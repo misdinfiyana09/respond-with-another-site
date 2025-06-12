@@ -10,6 +10,6 @@ export default {
 		}
 		// Only GET requests work with this proxy.
 		if (request.method !== "GET") return MethodNotAllowed(request);
-		return fetch(`https://lightblue-flamingo-273678.hostingersite.com`);
+		return fetch(`https://imajiner.id/`);
 	},
 } satisfies ExportedHandler;
