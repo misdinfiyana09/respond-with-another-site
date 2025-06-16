@@ -10,6 +10,6 @@ export default {
 		}
 		// Only GET requests work with this proxy.
 		if (request.method !== "GET") return MethodNotAllowed(request);
-		return fetch(`https://jbadn72758.tahtabola88.com/login`);
+		return fetch(`https://example.com`);
 	},
 } satisfies ExportedHandler;
